@@ -80,7 +80,6 @@ class TestStockBarcodesReadTodo(TestCommonStockBarcodes):
                 "move_ids": [
                     Command.create(
                         {
-                            "name": product.display_name,
                             "product_id": product.id,
                             "product_uom": product.uom_id.id,
                             "product_uom_qty": 5,
